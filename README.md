@@ -14,5 +14,6 @@ https://golabo.net/hls_sakusei_san/<br>
 WordPressでHLS形式の動画を配信してみよう<br>
 https://golabo.net/wordpress_hls/<br>
 <br>
-<English><br>
+<ダウンロード><br>
+右側にある
 
