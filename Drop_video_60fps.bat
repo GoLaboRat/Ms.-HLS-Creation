@@ -53,7 +53,7 @@ goto END
 
 rem エンコード
 
-ECHO ------------------------------------------------------------Creating 30fps VIDEO------------------------------------------------------------
+ECHO ------------------------------------------------------------Creating 60fps VIDEO------------------------------------------------------------
 for %%a in ("%movie%") do (
 ffmpeg -i %%a ^
 -r 60 -vsync 1 -filter:v:0 scale=-2:480 -c:v:0 libx264 -profile:v:0 main -level:v:0 3.1 -crf:v:0 20 -maxrate:v:0 1400k -bufsize:v:0 2100k -b:a:0 160k -aac_coder twoloop -g 180 -sc_threshold 0 -f segment -segment_format_options movflags=+faststart ^
