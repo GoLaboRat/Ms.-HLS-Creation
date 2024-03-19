@@ -15,5 +15,6 @@ WordPressでHLS形式の動画を配信してみよう<br>
 https://golabo.net/wordpress_hls/<br>
 <br>
 <ダウンロード><br>
-右側にある「Releases」から飛んで「HLS.ZIP」をクリック
+右側にある「Releases」から飛んで「HSS_ver2.00.zip
+」をクリック
 
