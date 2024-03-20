@@ -5,7 +5,7 @@ rem 実行ディレクトリを取得
 set "your_directory=%~dp0"
 
 rem 動画ファイルの習得
-set "movie=%1"
+set "movie=%~1"
 
 rem videoフォルダ作成
 if exist %your_directory%video (goto TRUE) else (goto FALSE)
